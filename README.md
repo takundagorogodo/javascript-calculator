@@ -3,7 +3,6 @@
 A simple and responsive calculator built using HTML, CSS, and JavaScript.  
 It performs basic arithmetic operations and includes clear and delete functionality.
 
----
 ## 📌 Features
 - ➕ Addition
 - ➖ Subtraction
@@ -14,7 +13,6 @@ It performs basic arithmetic operations and includes clear and delete functional
 - 🟢 Equals button (=) to calculate result
 - 🎨 Clean UI using CSS Grid
 - 📱 Responsive design
----
 
 ## 🛠 Technologies Used
 - HTML5
@@ -23,13 +21,12 @@ It performs basic arithmetic operations and includes clear and delete functional
 
 ## 📂 Project Structure
 calculator-project/
-│
 ├── index.html  
 ├── style.css  
 ├── script.js  
 ├── screenshot.png  
 └── README.md  
----
+
 
 ## 🚀 How It Works
 
@@ -38,9 +35,7 @@ calculator-project/
 ```javascript
 const buttonsEl = document.querySelectorAll(".buttons button");
 ```
-
 2. Event listeners are added to each button.
-
 3. Based on the button clicked:
    - `"C"` → Clears the input
    - `"Del"` → Deletes last character
@@ -48,12 +43,11 @@ const buttonsEl = document.querySelectorAll(".buttons button");
    - Other buttons → Append value to input
 
 Example delete function:
-
 ```javascript
 function deleteLast() {
     inputField.value = inputField.value.slice(0, -1);
 }
-
+```
 ## ▶ How To Run
 1. Download or clone this repository
 2. Open the project folder
@@ -61,7 +55,8 @@ function deleteLast() {
 4. The calculator will open in your browser
 
 ## 📸 Screenshot
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](screenshot_1.png)
+![Calculator Screenshot](screenshot_2.png)
 
 ## 🔥 Future Improvements
 - Add keyboard support
@@ -74,8 +69,5 @@ function deleteLast() {
 Takundah Gorogodo  
 GitHub: https://github.com/takundagorogodo
 
----
-
 ## 📄 License
-
 This project is open-source and free to use.
